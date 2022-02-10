@@ -1,0 +1,39 @@
+enable  : true
+title   : MEET THE TEAM
+
+# instagram, twitter, facebook, linkedin, github, youtube
+
+
+members  :
+
+  # - name  : John Doe
+  #   image : https://github.com/sujaykumarh.png?size=512
+  #   designation : CEO, Founder
+  #   # description : >
+  #   #   Ut proident laboris aliquip incididunt est enim non voluptate aute est. Duis dolor consequat velit incididunt sit consequat et proident in magna nisi adipisicing. Adipisicing irure ea eu in amet aliquip ex proident veniam eu aliquip enim. Minim qui et magna dolor reprehenderit.
+
+  #   links:
+  #     - icon: ion-logo-github
+  #       url : https://github.com/sujaykumarh
+
+  #     - icon: ion-logo-twitter
+  #       url : https://twitter.com/sujaykumarh
+
+  - name  : Sujay
+    image : https://github.com/sujaykumarh.png?size=512
+    designation : Software Architect
+    # description : >
+    #   Sujaykumar is a software engineer with over 6 years of experience in the field of software development. 
+    #   He has worked with a wide range of technologies and platforms. 
+    #   He has a strong background in the development of large-scale web applications, and has worked on a wide range of projects, 
+    #   including the development of a web-based application for managing the management of a large-scale enterprise.
+
+    links:
+      - icon: ion-ios-mail
+        url : mailto:sujay@securintx.com
+
+      - icon: ion-logo-github
+        url : https://github.com/sujaykumarh
+
+      - icon: ion-logo-twitter
+        url : https://twitter.com/sujaykumarh

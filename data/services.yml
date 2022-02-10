@@ -1,0 +1,89 @@
+enable  : true
+title   : Services Offered
+subtitle: Here are some of the services we offer
+description: >
+  We’re dedicated to providing you the best of security and devlopment, with a focus on dependability and customer service. We are constantly working to improve services and products to our customers, and we’re always looking for new ways to help open-source communities and projects. 
+
+image   : images/undraw_Interview.png
+
+
+items :
+  - icon  : ion-ios-cloud
+    title : Web Application Penetration Testing (WAPT)
+    description : >
+      Application security combines industry-standard information security practices with tools explicitly designed to test web application. 
+      Web Application security assessment is carried out manually and automatically under security best guidelines. 
+      <br><br>
+      Our application assessment methodology is designed on below based guideline: 
+      <br>
+      • Web Application Security Consortium (WASC) guidelines
+      <br>
+      • OWASP Top 10 (Open Web Application Security Project)
+      <br>
+      • NIST
+      <br>
+      • SANS
+      <br><br>
+      We Includes number of security techniques like Blackbox, Grey Box and also covers Business login flaws into the application functionality.
+
+  - icon  : ion-ios-phone-portrait
+    title : Mobile Application Security Assessment
+    description : >
+      The Mobile application testing is composed of products and services that analyze and identify vulnerabilities in applications used with mobile platforms (iOS & Android) during post development. 
+      Our security experts will review the potential security or privacy-related weaknesses in your mobile application. 
+      <br><br>
+      We will initiate the application assessment in phases: 
+      <br><br>
+      • SAST: Testing an application from the inside out by examining its source code or application binaries for issues based on the configuration that points towards a security vulnerability. Uses publicly available information and strategically makes plans to exploit any loopholes in the defense and security strategy.
+      <br><br>
+      • DAST: Used to detect conditions indicative of a security vulnerability in an application while in its running state. One of the most common and classic methods of hacking used by hackers is the Man in the Middle Attack (MiTM).
+      <br>
+      Our Testing Methodology is designed on below based guideline: OWASP top 10 MAPT Security • Improper Platform Usage • Insecure Data Storage • Insecure Communication • Insecure Authentication • Insufficient Cryptography • Insecure Authorization • Poor Code Quality • Code Tampering • Reverse Engineering • Extraneous Functionality
+
+  - icon  : ion-ios-flask
+    title : Application programming interfaces (API) Assessment
+    description : >
+      Application programming interfaces (APIs) have become a critical part of almost every business. 
+      APIs are responsible for transferring information between systems within a company or to external companies. 
+      The sensitive data being transferred through APIs, it’s critical to secure them. 
+      Increasingly sophisticated attacks occur every year, requiring better security controls and monitoring. 
+      Hackers can take advantage of these flaws, and we’ll help you in securing them. 
+      API security is critical to businesses because these interfaces often expose sensitive data and expose the organization’s internal infrastructure to misuse. 
+      A security breach could mean leaking sensitive customer data or even personally identifying information in healthcare or finance, which is regulated by law.
+
+      <br><br>
+      Our Testing Methodology is designed on below based guideline: OWASP top 10 API Security • Broken Object Level Authorization • Broken User Authentication • Excessive Data Exposure • Lack of Resources & Rate Limiting • Broken Function Level Authorization • Mass Assignment • Security Misconfiguration • Injection • Improper Assets Management • Insufficient Logging & Monitoring
+
+  - icon  : ion-ios-cube
+    title : Thick Client Application Assessment
+    description : >
+      Thick client applications have been around for many years and can still be found within a variety of organizations – across industries and sizes. 
+      Due to the adoption of hybrid infrastructure architecture, thick-client applications can become a better target for attackers. 
+      The thick clients are heavy applications which normally involve the installation of application on the client side (user computer). 
+      These application take up memory and run completely on the computers resources. This means that the security of the application is dependent on the local computer. 
+      
+      <br><br>
+      Our security experts will not only review the potential security or privacy-related weaknesses in these applications but also helps you to mitigate these type of threats and provides you a secure environments.
+
+  - icon  : ion-ios-business
+    title : Infrastructure Vulnerability Assessment & Penetration Testing (VAPT)
+    description : >
+      Infrastructure testing is a penetration test (also known as a pentest or pentesting) or vulnerability assessment of computer systems, network devices or IP address ranges to identify vulnerabilities that could be exploited. 
+      Performing a security assessment of your network provides a snapshot of the vulnerabilities that may be exploited by a malicious user if they have been able to access your Internet-facing network services or obtain a physical connection to your corporate environment. 
+      We also identifies the security issues, network devices that are open to known vulnerabilities and weak links in your network through network assessment and penetration testing.
+  
+  - icon  : ion-ios-lock
+    title : System Hardening
+    description : >
+      System hardening is usually the process of securing a system by reducing its surface of vulnerability, which is larger when a system performs more functions; 
+      in principle a single-function system is more secure than a multipurpose one. The purpose of system hardening is to eliminate as many security risks as possible. 
+      This is typically done by removing all non-essential software programs and utilities from the computer. 
+      System hardening is the process of securing a system by reducing the vulnerability surface by providing various means of protection in a computer system.
+
+  - icon  : ion-ios-hammer
+    title : Development & Testing
+    description : >
+      Looking for a development solution? or Looking to hire a Development team? we provide variety of services to develop and test your applications. Reach out to us for more information.
+
+      <br><br>
+      Website • Flutter • cli • Hybrid apps • Web Services • API Development • Mobile App Development [ Android, iOS ] and more..

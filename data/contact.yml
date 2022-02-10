@@ -1,0 +1,24 @@
+enable  : true
+contactFormTitle    : CONTACT US
+contactFormSubtitle : >
+  leave a message and we will get back to you as soon as possible.
+
+image   : images/undraw_Interview.png
+
+mapTitle    : FIND US
+mapSubtitle : >
+  We are located in the heart of the city.
+
+contactFormAction: "#"
+googleMapEmbedURL: ''
+  
+# address: '221b Baker Street, London, UK'
+address: 'India'
+
+emails :  
+  - info@securintx.com
+  - hello@securintx.com
+
+# phones: 
+#   - +91 98765 43210
+#   - +91 98765 43210

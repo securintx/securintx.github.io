@@ -1,0 +1,22 @@
+enable  : true
+title   : Who We Are
+description: >
+  Our operation starts in 2021 to provide cyber security consulting services to clients as partners and conceptualize, realize and lead technology driven business transformation initiative to completion. 
+  <br><br>
+  We offer services in 2 spectrum- Application assessment and Infrastructure Assessment. Our strength lies in understanding out client's business processes, culture, vision and goals across the industry segments and offering reliable client-oriented solutions.
+  <br><br>
+  Our mission is not to only provide a secure environment but to also establishing a strong relationship with our customer.
+image   : images/cyber-bg.jpg
+aboutItem:
+  - title : Why Choose Us
+    description: > 
+      Our goal is to reduce security risk by eliminating potential attack vectors and condensing the system's attack surface. By removing superfluous programs, accounts functions, applications, ports, permissions, access, etc.
+
+  - title : What You Get
+    description: > 
+      We’re dedicated to providing you the best of security and devlopment, with a focus on dependability and customer service. We are constantly working to improve services and products to our customers, and we’re always looking for new ways to help open-source communities and projects.
+
+
+  - title : Meet The Energy
+    description: > 
+      Founded in 2021 by a group of enthusiastic developers and passionate security professionals, SecurIntX is a company that provides a wide range of services to its customers.

@@ -1,0 +1,16 @@
+# enable  : true
+enable  : false
+
+title   : OUR HAPPY CLIENTS
+subtitle: "We are proud to have worked with some of the best companies in the world."
+clientsLogo:
+  - image : images/clients/logo-1.jpg
+  - image : images/clients/logo-2.jpg
+  - image : images/clients/logo-3.jpg
+  - image : images/clients/logo-4.jpg
+  - image : images/clients/logo-5.jpg
+  - image : images/clients/logo-6.jpg
+  - image : images/clients/logo-7.jpg
+  - image : images/clients/logo-8.jpg
+  - image : images/clients/logo-9.jpg
+  - image : images/clients/logo-10.jpg

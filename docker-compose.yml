@@ -1,0 +1,29 @@
+version: '3'
+
+networks:
+  securintx_site_hugo_net:
+    driver: bridge
+
+
+services:
+
+  hugo:
+    image: klakegg/hugo:alpine
+    container_name: securintx_site_hugo
+    user: ${CURRENT_UID}
+    command: help
+    volumes:
+      - ".:/src"
+
+  server:
+    image: klakegg/hugo:alpine
+    container_name: securintx_site
+    user: ${CURRENT_UID}
+    restart: unless-stopped
+    command: ["server", "--watch" , "-D"]
+    volumes:
+      - "./:/src"
+    networks: 
+      - securintx_site_hugo_net
+    ports:
+      - $HTTP_PORT:1313

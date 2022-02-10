@@ -1,0 +1,30 @@
+# ############################### #
+#  ^ ^                            #
+# (O,O)                           #
+# (   ) SecurIntX.com             #
+# -"-"-------------------         #
+# securintx robots.txt            #
+# ############################### #
+
+User-agent: *
+Allow: /
+
+Disallow: /privacy.html
+Disallow: /terms.html
+Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+Disallow: /images/
+Disallow: /download/
+Disallow: /dl/
+Disallow: /page/
+Disallow: /favicon.ico
+Disallow: /favicon.png
+Disallow: /favicon.jpg
+Disallow: /favicon.gif
+Disallow: /favicon.svg
+
+Disallow: /contact/
+
+Sitemap: https://securintx.com/sitemap.xml

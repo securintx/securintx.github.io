@@ -1,0 +1,79 @@
+baseURL: 'https://securintx.com/'
+languageCode: 'en-us'
+title: 'SecurIntX'
+googleAnalytics: 'UA-XXXXX-X'
+
+theme: "timer"
+
+# Theme Config
+
+copyright: 'SecurIntX'
+
+menus:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Services"
+      url: "services/"
+      weight: 2
+    - name: "About"
+      url: "about/"
+      weight: 3
+    - name: "Blog"
+      url: "https://blog.securintx.com/?utm_source=main&utm_medium=navbar"
+      weight: 5
+    - name: "Contact"
+      url: "contact/"
+      weight: 99
+
+params:
+  home: 'home'
+  logo: 'https://github.com/securintx.png?size=30'
+  dateFormat: "6 January 2006"
+  googleAnalitycsID: 'UA-XXXXX-X' 
+
+  banner:
+    enable: true
+    # bgImage: "images/lock-bg.jpg"
+    bgImage: "images/cyber-bg.jpg"
+    heading: "Hi there, we are SecurIntX"
+    description: >
+      we are a cyber security company we provide cyber security consulting services. 
+      <br> 
+      Our mission is to offer reliable client-oriented solutions.
+  
+    btn: true
+    btnText: "About Us"
+    btnURL: "#about"
+
+  about:
+    enable: true
+    title: "About"
+    content: "Our operation starts in 2021 to provide cyber security consulting services to clients as partners and conceptualize, realize and lead technology driven business transformation initiative to completion. <br><br> We offer services in 2 spectrum- Application assessment and Infrastructure Assessment. Our strength lies in understanding out client's business processes, culture, vision and goals across the industry segments and offering reliable client-oriented solutions. <br><br> Our mission is not to only provide a secure environment but to also establishing a strong relationship with our customer."
+    image: "images/undraw_real_time.png"
+
+  portfolio:
+    enable: false
+    title: "Portfolio"
+    content: "lorem ipsum"
+
+  cta:
+    enable: true
+    title: "Ready to get started?"
+    content: "lets get in touch"
+    btnText: "Contact Us"
+    btnURL: "/contact"
+
+
+  socialIcon:
+    - icon: "ion-logo-twitter"
+      url: "https://twitter.com/securintx"
+    - icon: "ion-logo-facebook"
+      url: "https://facebook.com/securintx"
+    - icon: "ion-logo-instagram"
+      url: "https://instagram.com/securintx"
+    - icon: "ion-logo-linkedin"
+      url: "https://linkedin.com/company/securintx"
+    - icon: "ion-logo-github"
+      url: "https://github.com/securintx"
