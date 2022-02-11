@@ -6,11 +6,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				{{ .Content }}
+				{{ .Content | safeHTML }}
 			</div>
 		</div>
 	</div>
 </section>
+
+<style>
+ul{
+	margin-left: 3rem;
+}
+
+ul li{
+	list-style: disc !important;
+}
+</style>
 
 <hr>
 
