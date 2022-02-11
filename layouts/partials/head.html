@@ -3,6 +3,11 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
+  
+  {{ "<!-- Preconnect -->" | safeHTML }}
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://unpkg.com">
+  
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
@@ -21,23 +26,25 @@
   <!-- <link rel="stylesheet" href="{{ `plugins/ionicons/ionicons.min.css` | absURL }}"> -->
   
   {{ "<!-- animate css -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/animate-css/animate.css` | absURL }}">
-  <!-- <link href="https://unpkg.com/ionicons@4.x/dist/css/ionicons.min.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="{{ `plugins/animate-css/animate.css` | absURL }}"> -->
+  <link href="https://cdn.jsdelivr.net/npm/animate.css@3.x/animate.min.css" rel="stylesheet">
   
   {{ "<!-- Hero area slider css-->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/slider/slider.css` | absURL }}">
-  <!-- <link href="https://unpkg.com/ionicons@4.x/dist/css/ionicons.min.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="{{ `plugins/slider/slider.css` | absURL }}"> -->
+  <!-- <link href="" rel="stylesheet"> -->
   
   {{ "<!-- slick slider -->" | safeHTML }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.x/slick/slick.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.x/slick/slick-theme.min.css">
   <!-- <link rel="stylesheet" href="{{ `plugins/slick/slick.css` | absURL }}"> -->
-
+  
   {{ "<!-- Fancybox -->" | safeHTML }}
   <!-- <link rel="stylesheet" href="{{ `plugins/facncybox/jquery.fancybox.css` | absURL }}"> -->
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fancybox@3.0.1/dist/css/jquery.fancybox.min.css">
+  
   {{ "<!-- hover -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/hover/hover-min.css` | absURL }}">
+  <!-- <link rel="stylesheet" href="{{ `plugins/hover/hover-min.css` | absURL }}"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IanLunn/Hover@2.x/css/hover-min.css">
   
   {{ "<!-- template main css file -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify}}

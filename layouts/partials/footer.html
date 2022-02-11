@@ -49,7 +49,8 @@
 <!-- <script src="{{ `plugins/slider/slider.js` | absURL }}"></script> -->
 
 {{ "<!-- Fancybox -->" | safeHTML }}
-<script src="{{ `plugins/facncybox/jquery.fancybox.js` | absURL }}"></script>
+<!-- <script src="{{ `plugins/facncybox/jquery.fancybox.js` | absURL }}"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/fancybox@3.x/dist/js/jquery.fancybox.min.js"></script>
 
 {{ "<!-- template main js -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
