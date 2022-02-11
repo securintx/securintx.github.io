@@ -1,6 +1,56 @@
 {{ "<!-- Footer Section Start -->" | safeHTML }}
 <footer id="footer">
   <div class="container">
+    <div class="row my-3 text-center text-md-left">
+      <div class="col col-12 col-md-4">
+        
+					<div class="h2">
+            <a class="navbar-brand text-secondary" href="{{ .Site.BaseURL }}">
+              <img src="{{ .Site.Params.logo | absURL }}" alt="">
+              <span class="pl-2">{{ .Site.Title }}</span>
+            </a>
+          </div>
+
+          <div class="mt-4">
+            {{ .Site.Data.contact.address }}
+          </div>
+
+
+          {{ if .Site.Data.contact.emails }}
+          <div class="mt-4">
+            <p class="mt-3">
+              {{ range .Site.Data.contact.emails }}
+              <a class="text-dark d-block mt-2" href="mailto:{{.}}">{{.}}</a>
+              {{ end }}
+            </p>
+          </div>
+          {{ end }}
+      </div>
+
+      <div class="col col-12 col-md-4 mt-4 mt-md-0">
+        <b class="">Site Links</b>
+
+        <div class="mt-md-3">
+          {{ range site.Menus.main }}
+            <a class="text-secondary d-block mt-2 text-truncate" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">
+              {{ .Name }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col col-12 col-md-4 mt-4 mt-md-0">
+        <b class="">Other Links</b>
+
+        <div class="mt-md-3">
+          <a class="text-secondary d-block mt-2 " href="/terms">Terms &amp; Conditions</a>
+          <a class="text-secondary d-block mt-2 " href="/privacy">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
     <div class="row content-justify-between">
       <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
         © <a class="text-secondary" href="/">{{ $.Site.Copyright | safeHTML }}</a> {{ now.Year }}
@@ -16,11 +66,12 @@
           </span>
         </p>
       </div>
-      <div class="col-md-4 col-12">
+
+      <div class="col-md-4 col-12 mt-3 mt-md-0">
         {{ "<!-- Social Media -->" | safeHTML }}
         <ul class="social text-center text-md-right text-lg-right">
           {{ range .Site.Params.socialIcon }}
-          <li><a href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a target="_blank" class="" href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a></li>
           {{ end }}
         </ul>
       </div>
