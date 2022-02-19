@@ -19,7 +19,7 @@ $ cp .env.example .env
 $ nano .env
 
 # run hugo site
-$ docker-compose up -d serve
+$ docker-compose up -d server
 ```
 
 <br>
